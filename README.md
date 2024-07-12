@@ -1,6 +1,7 @@
 # Tarot Card Daily Pull Application
 
 This is an application to pull a daily Tarot card when you're away from your deck. Use this as a journal prompt or for a moment of mindfulness.
+View the live site here - https://cactusballs.github.io/tarot_app/
 
 ## Table of Contents
 
