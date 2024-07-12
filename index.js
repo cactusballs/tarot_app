@@ -8,5 +8,5 @@ document.getElementById('tarotButton').addEventListener('click', () => {
     `<h2>${card.name}</h2>
     <p><strong>Meaning:</strong>${card.meaning}</p>`;
   })
-  .catch(error => console.error('Error fetching random card:', error));
+  .catch(error => console.error('Error fetching a card:', error));
 });

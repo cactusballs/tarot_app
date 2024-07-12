@@ -59,6 +59,6 @@ app.get('/daily-pull', (req, res) =>{
 // is it working? 
 const port = 3002;
 app.listen(port, () => {
-  console.log(`server is running on http://localhost:${port}`);
+  console.log(`server is running on https://localhost:${port}`);
 });
 
