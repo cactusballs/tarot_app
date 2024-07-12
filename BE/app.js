@@ -4,6 +4,12 @@ const app = express();
 const sql = require('mysql2');
 const path = require('path');
 require('dotenv').config();
+
+// cors
+const cors = require('cors');
+app.use(cors());
+
+
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'FE')));  
 // connecting to the DB
