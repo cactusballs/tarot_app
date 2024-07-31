@@ -1,94 +1,70 @@
-# Tarot Card Daily Pull Application
+# Getting Started with Create React App
 
-This is an application to pull a daily Tarot card when you're away from your deck. Use this as a journal prompt or for a moment of mindfulness.
-View the live site here - https://cactusballs.github.io/tarot_app/
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
+## Available Scripts
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
+In the project directory, you can run:
 
-## Introduction
+### `npm start`
 
-The Tarot Card Daily Pull application allows users to randomly draw a Tarot card from the Major Arcana and Minor Arcana. This can be used as a daily journal prompt, for reflection, or for a moment of mindfulness. Whether you're on the go or simply don't have your deck with you, this application is a perfect companion.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Features
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- Draw a random Tarot card from a complete deck.
-- Display the card's name, number, and meaning.
-- User-friendly interface with a single button to pull a card.
-- Useful for daily mindfulness practices or journaling.
+### `npm test`
 
-## Technologies Used
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Frontend:**
-  - HTML
-  - CSS
-  - JavaScript
+### `npm run build`
 
-- **Backend:**
-  - Node.js
-  - Express.js
-  - MySQL
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Others:**
-  - Nodemon (for development)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Getting Started
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Prerequisites
+### `npm run eject`
 
-Ensure you have the following installed:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- Node.js
-- npm (Node Package Manager)
-- MySQL
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Setup and Installation
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. **Clone the repository:**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-   ```sh
-   git clone https://github.com/cactusballs/tarot_app.git
-   cd tarot_app```
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-2. **Install the dependencies:**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-  ` npm install ` 
+### Code Splitting
 
-3. **Set up the DataBase:**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-  - Create a new MySQL database. 
-  - Import the tarot card data (found in the .sql file on this repo)
-  - create a .env using the .env.example file. 
+### Analyzing the Bundle Size
 
-4. **Start the Server:**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-  `npm start` 
+### Making a Progressive Web App
 
-5. **Access the application:**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-  Open your browser and navigate to http://localhost:3000
+### Advanced Configuration
 
-### Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
- - Navigate to http://localhost:3000 in your web browser.
- - Click the "Get Random Card" button to draw a random Tarot card.
- - The card's name, number, and meaning will be displayed.
+### Deployment
 
- ### API Endpoints 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-  - GET / daily-pull
-    - Description: Fetch a Tarot Card from the DB.
-    - Response: JSON object containing the card's name and meaning. 
+### `npm run build` fails to minify
 
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
